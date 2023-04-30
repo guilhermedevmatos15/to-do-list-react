@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 
 // ? CSS
-import './styles/css/index.css'
+import './index.css';
 
 // ? Libs
 import initSmoothScroll from './libs/smoothScroll';
