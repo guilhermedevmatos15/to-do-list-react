@@ -1,0 +1,18 @@
+.TodoList {
+   width: 90%; max-width: 400px;
+   height: auto;
+   padding: 30px 30px;
+   border-radius: 20px;
+   background-color: #151414;
+   box-shadow: 0 0 50px #c6c6c673;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.TodoList h1 {
+   font-size: 2rem;
+   font-weight: 600;
+}

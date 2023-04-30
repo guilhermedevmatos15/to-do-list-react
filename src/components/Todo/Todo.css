@@ -1,0 +1,34 @@
+.Todo {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 10px;
+   background-color: #e53a1b;
+   color: white;
+   cursor: pointer;
+}
+
+.Todo .iconChecked {
+   display: none;
+}
+
+.Todo p {
+   width: 210px;
+   overflow: auto;
+}
+
+.Todo.completed {
+   background-color: #8b2311;
+   color: #c2c2c2;
+}
+
+.Todo.completed p {
+   text-decoration: line-through;
+}
+
+.Todo.completed .iconChecked {
+   display: inline;
+}
+.Todo.completed .iconNoChecked {
+   display: none;
+}

@@ -1,0 +1,33 @@
+.Form {
+   margin-top: 10px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+.Form input {
+   width: 50%; min-width: 250px;
+   background-color: transparent;
+   border: 1px solid #FF4B2B;
+   padding: 8px 15px;
+   font-family: var(--font-default);
+   color: whitesmoke;
+}
+
+.Form button {
+   background-color: #FF4B2B;
+   border: none;
+   padding: 5px 10px;
+   font-family: var(--font-default);
+   font-weight: 500;
+   cursor: pointer;
+   transition: all .4s;
+   color: white;
+}
+
+.Form button:hover {
+   background-color: #fc6c56;
+   cursor: pointer;
+   transition: all .4s;
+}
