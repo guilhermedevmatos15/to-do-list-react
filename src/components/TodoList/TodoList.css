@@ -1,5 +1,5 @@
 .TodoList {
-   width: 90%; max-width: 400px;
+   width: 100%; max-width: 400px; min-width: 300px;
    height: auto;
    padding: 30px 30px;
    border-radius: 20px;
@@ -15,4 +15,6 @@
 .TodoList h1 {
    font-size: 2rem;
    font-weight: 600;
+   text-align: center;
+   line-height: 2.5rem;
 }

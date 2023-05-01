@@ -9,26 +9,32 @@ import './Form.css';
 
 // * Icons
 
+const Form = (props) => {
+   const { setInputValue, handleClick } = props;
 
-const Form = props => {
    return (
-      <form className='Form'>
-         <input 
-            type="text" 
+      <form
+         className="Form"
+         onSubmit={(e) => {
+            e.preventDefault();
+            handleClick();
+         }}
+      >
+         <input
+            type="text"
             required
             minLength={3}
-            maxLength={50} 
-            placeholder='What is the task today?' 
+            maxLength={50}
+            placeholder="What is the task today?"
+            onChange={(e) => {
+               setInputValue(e.target.value);
+            }}
          />
-         <button 
-            className='b-add' 
-            type='submit'
-            onClick={e => {e.preventDefault()}}
-         >
+         <button className="b-add" type="submit">
             Add Task
          </button>
       </form>
    );
-}
+};
 
 export default Form;

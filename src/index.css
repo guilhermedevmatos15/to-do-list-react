@@ -13,7 +13,7 @@
    box-sizing: border-box;
 }
 
-body, .App, .root {
+body, .root {
    width: 100%;
    height: auto;
    font-family: var(--font-default);

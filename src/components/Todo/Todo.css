@@ -4,28 +4,29 @@
    justify-content: space-between;
    padding: 10px 10px;
    background-color: #e53a1b;
+   border-radius: 10px;
    color: white;
    cursor: pointer;
+}
+
+.Todo p {
+   margin-left: 10px;
+   width: 210px;
+   overflow: auto;
 }
 
 .Todo .iconChecked {
    display: none;
 }
 
-.Todo p {
-   width: 210px;
-   overflow: auto;
-}
-
+/* Todo completed */
 .Todo.completed {
    background-color: #8b2311;
    color: #c2c2c2;
 }
-
 .Todo.completed p {
    text-decoration: line-through;
 }
-
 .Todo.completed .iconChecked {
    display: inline;
 }

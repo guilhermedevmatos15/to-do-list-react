@@ -1,5 +1,5 @@
 .Form {
-   margin-top: 10px;
+   margin-top: 20px;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -7,19 +7,29 @@
 }
 
 .Form input {
-   width: 50%; min-width: 250px;
+   width: 55%; max-width: 250px; min-width: 187px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
    background-color: transparent;
    border: 1px solid #FF4B2B;
    padding: 8px 15px;
    font-family: var(--font-default);
    color: whitesmoke;
 }
+.Form input:focus {
+   /* border-radius: 0; */
+   outline: none;
+   border: 1px solid white;
+}
 
 .Form button {
+   width: 82px;
    background-color: #FF4B2B;
    border: none;
    padding: 5px 10px;
    font-family: var(--font-default);
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
    font-weight: 500;
    cursor: pointer;
    transition: all .4s;
